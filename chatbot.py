@@ -39,7 +39,7 @@ def main():
     args = parser.parse_args()
 
     initial_prompt = (
-        f"You are a conversational chatbot."
+        f"You are a conversational chatbot. "
         f"Your personality is: {args.personality}"
     )
     messages = [
